@@ -1,9 +1,9 @@
 # login_flutter
 
-1. Buat project flutter
+### 1. Buat project flutter
 Pertama laptop atau komputer kalian harus sudah terinstal flutter, dan gunakan IDE Android Studio atau Visual Studio Code. Buat project flutter dan beri nama misalkan login, tunggu hingga proses sinkronisasi selesai.
 
-2. Menyiapkan assets
+### 2. Menyiapkan assets
 
 Sebelum menciptakan layout. kalian harus mempunyai asset gambar dahulu. Kemudian buat folder dengan nama assets, buat folder dalam assets dengan nama images, dan pindahkan assets gambar yang sudah kalian miliki ke folder images.
 
@@ -24,7 +24,7 @@ static const hintColor          = Color(0xffccd1ff);
 } 
 ```
 
-4. Membuat Halaman Login
+### 4. Membuat Halaman Login
 
 Selanjutnya buka folder lib, buat folder dengan nama screens dan buat file didalamnya denga nama login_view.dart. Folder screens dipakai untuk halaman supaya file didalam folder lib lebih rapi. Ketik instruksi code berikut didalam file login_view.dart:
 ```dart
@@ -193,7 +193,7 @@ Catatan:
 
 pada import dan pemanggilan class halaman register masih error sebab kita belum membuatnya, biarkan terlebih dahulu dan ikuti langkagh berikutnya
 
-5. Membuat Halaman Register
+### 5. Membuat Halaman Register
 
 Buat file pada folder lib > screens dengan nama register_view.dart, dan tambahkan kodenya seperti berikut:
 ```dart
@@ -353,7 +353,7 @@ Navigator.pushNamed(context, "/");
 );
 }
 ```
-6. Membuat Routing
+### 6. Membuat Routing
 
 Routing dipakai untuk berpindah halaman, kita akan menghubungkan halaman login dan register. Buka file main.dart pada folder lib, dan ubah kodenya menjadi kode berikut ini:
 
@@ -377,14 +377,17 @@ Catatan:
 
 initialRoute dipakai untuk raoute yang pertama kali ditampilkan pada aplikasi, intruksi diatas halaman yang pertama ditampilkan adalah login.
 
-7. Finishing
+### 7. Finishing
 
 Sebelum projectnya dijalankan, buka file widget_test.dart pada folder test. Tambahkan komentar // untuk impirt main dan MyApp. seperti dibawah ini:
 - **Gambar**
 
 ![img](meh.webp)
 
+- **Gambar**
 Results Run code :
+**regist result :**
 ![img](reg.png)
+**Login Results :**
 ![img](login1.png)
 ![img](login2.png)
