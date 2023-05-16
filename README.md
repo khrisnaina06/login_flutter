@@ -386,8 +386,10 @@ Sebelum projectnya dijalankan, buka file widget_test.dart pada folder test. Tamb
 
 - **Gambar**
 Results Run code :
+
 **regist result :**
 ![img](reg.png)
+
 **Login Results :**
 ![img](login1.png)
 ![img](login2.png)
