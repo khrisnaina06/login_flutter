@@ -11,7 +11,7 @@ Selanjutnya pendaftaran gambar yang sudah ditambahkan dengan membuaka file pubsp
 
 assets:
 - assets/images/
-3. Menyiapkan assets warna
+### 3. Menyiapkan assets warna
 
 Untuk memudahkan penggunaan warna, buat file gres pada folder lib dan beri nama constants.dart. File ini nantinya dipakai untuk color palette yang akan dipanggil pada halaman login dan registrasi. Tulis kodenya seperti berikut:
 ```dart
