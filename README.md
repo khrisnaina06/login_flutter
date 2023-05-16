@@ -29,7 +29,7 @@ static const hintColor          = Color(0xffccd1ff);
 4. Membuat Halaman Login
 
 Selanjutnya buka folder lib, buat folder dengan nama screens dan buat file didalamnya denga nama login_view.dart. Folder screens dipakai untuk halaman supaya file didalam folder lib lebih rapi. Ketik instruksi code berikut didalam file login_view.dart:
-
+```dart
 import 'package:flutter/material.dart';
 import 'package:login/constants.dart';
 import 'package:login/screens/register_view.dart';
@@ -190,6 +190,7 @@ Navigator.pushNamed(BuildContext, RegisterPage.routeName);
 ],
 );
 }
+```
 Catatan:
 
 pada import dan pemanggilan class halaman register masih error sebab kita belum membuatnya, biarkan terlebih dahulu dan ikuti langkagh berikutnya
@@ -197,7 +198,7 @@ pada import dan pemanggilan class halaman register masih error sebab kita belum 
 5. Membuat Halaman Register
 
 Buat file pada folder lib > screens dengan nama register_view.dart, dan tambahkan kodenya seperti berikut:
-
+```dart
 import 'package:flutter/material.dart';
 import 'package:login/constants.dart';
 class RegisterPage extends StatefulWidget {
@@ -353,10 +354,12 @@ Navigator.pushNamed(context, "/");
 ],
 );
 }
+```
 6. Membuat Routing
 
 Routing dipakai untuk berpindah halaman, kita akan menghubungkan halaman login dan register. Buka file main.dart pada folder lib, dan ubah kodenya menjadi kode berikut ini:
 
+```dart
 import 'package:flutter/material.dart';
 import 'package:login/screens/login_view.dart';
 import 'package:login/screens/register_view.dart';
@@ -371,6 +374,7 @@ RegisterPage.routeName : (context) => RegisterPage(),
 },
 ));
 }
+```
 Catatan:
 
 initialRoute dipakai untuk raoute yang pertama kali ditampilkan pada aplikasi, intruksi diatas halaman yang pertama ditampilkan adalah login.
@@ -378,3 +382,5 @@ initialRoute dipakai untuk raoute yang pertama kali ditampilkan pada aplikasi, i
 7. Finishing
 
 Sebelum projectnya dijalankan, buka file widget_test.dart pada folder test. Tambahkan komentar // untuk impirt main dan MyApp. seperti dibawah ini:
+- **Gambar**
+![img](ss/meh.webp)
