@@ -1,7 +1,5 @@
 # login_flutter
 
-Form login dan register merupakan komponen yang penting dalam pembuatan suatu aplikasi yang membutuhkan terusan pengguna. Pada tutorial ini saya akan mencoba membuat halaman form login dan register keren dan menarik menggunakan flutter.
-
 1. Buat project flutter
 Pertama laptop atau komputer kalian harus sudah terinstal flutter, dan gunakan IDE Android Studio atau Visual Studio Code. Buat project flutter dan beri nama misalkan login, tunggu hingga proses sinkronisasi selesai.
 
