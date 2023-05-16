@@ -381,4 +381,4 @@ initialRoute dipakai untuk raoute yang pertama kali ditampilkan pada aplikasi, i
 
 Sebelum projectnya dijalankan, buka file widget_test.dart pada folder test. Tambahkan komentar // untuk impirt main dan MyApp. seperti dibawah ini:
 - **Gambar**
-![img](ss/meh.webp)
+![img](meh.webp)
